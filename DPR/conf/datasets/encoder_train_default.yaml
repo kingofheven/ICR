@@ -1,0 +1,142 @@
+# @package _group_
+epr_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ???
+  setup_type: ???
+  top_k: ???
+  hard_neg: ???
+  task_name: ???
+  loss_type: ???
+  rank_loss_top_sample: ???
+
+
+
+
+
+
+
+b2f_medium_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/b2f_medium_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: b2f_medium
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+
+b2f_small_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/b2f_small_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: b2f_small
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+
+conala_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/conala_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: conala
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+
+csn_java_slice1_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/csn_java_slice1_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: csn_java_slice1
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+
+csn_java_slice2_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/csn_java_slice2_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: csn_java_slice2
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+csn_java_slice3_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/csn_java_slice3_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: csn_java_slice3
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+csn_java_slice4_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/csn_java_slice4_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: csn_java_slice4
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+csn_python_slice1_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/csn_python_slice1_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: csn_python_slice1
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+
+tlc_slice1_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/tlc_slice1_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: tlc_slice1
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+
+
+tlc_slice2_dataset:
+  _target_: dpr.data.biencoder_data.EPRDataset
+  file: ./data_score/tlc_slice2_bm25.json
+  setup_type: qa
+  top_k: 5
+  hard_neg: true
+  task_name: tlc_slice2
+  loss_type: ???
+  rank_loss_top_sample: 1
+  rank_loss_factor: 1
+
+
+
+
+
+
+
+
+    

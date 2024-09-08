@@ -1,0 +1,1 @@
+{"hyper": {"dataset": "csn_java", "split": "test", "fp": "/data/jiaweilu/from_node2/node2_test_few/ICR/results/gpt_neo-2.7b/inference_csn_java_test.json", "exp_name": null, "method": null, "plm": null, "iter_scored_num": null, "iter_num": null, "epoch_num": "10", "prompt_num": null, "alpha": null, "beilv": null}}
