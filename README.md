@@ -9,4 +9,4 @@ bash scripts/test_ans.sh
 ```
 please modify the dataset in test_ans.sh
 
-training code and other code will be release in the future
+training code and other code will be release and describe in the future
