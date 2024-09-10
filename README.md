@@ -1,12 +1,20 @@
+# Instructive Code Retriever
+This is the replication package of the paper titled "Instructive Code Retriever: Learn from Large Language Model's Feedback of Code Intelligence Tasks".
+
 ## How to run the code
 ### Dependencies
-We use Python `3.10.4` and requirements are in requirements.txt
+* Python `3.10.4`
+* Install `requirements.txt`
+```shell
+pip install -r requirements.txt
+```
 
-
-you can evaluate our result by:
+### Inference
+You can evaluate our result by:
 ```shell
 bash scripts/test_ans.sh
 ```
-please modify the dataset in test_ans.sh
+You can modify the dataset and model in test_ans.sh to evaluate different results.
 
-training code and other code will be release and describe in the future
+Training code and other code will be released and described in the future.
+
